@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">Virtual Drum Kit</div>
+    <div>
+      <button class="btn" id="kick" data-key="32">
+        <div>Kick</div>
+        (Space)
+      </button>
+      <button class="btn" id="snare" data-key="83">
+        <div>Snare</div>
+        (S)
+      </button>
+      <button class="btn" id="c_hi-hat" data-key="65">
+        <div>Closed Hi-Hat</div>
+        (A)
+      </button>
+      <button class="btn" id="o_hi-hat" data-key="90">
+        <div>Open Hi-Hat</div>
+        (Z)
+      </button>
+      <button class="btn" id="ride" data-key="88">
+        <div>Ride</div>
+        (X)
+      </button>
+      <button class="btn" id="crash" data-key="67">
+        <div>Crash</div>
+        (C)
+      </button>
+      <button class="btn" id="tim" data-key="68">
+        <div>Tim</div>
+        (D)
+      </button>
+      <button class="btn" id="tom" data-key="70">
+        <div>Tom</div>
+        (F)
+      </button>
+      <button class="btn" id="s_bass" data-key="86">
+        <div>Side Bass</div>
+        (V)
+      </button>
+      <button class="btn" id="cbell" data-key="81">
+        <div>Cowbell</div>
+        (Q)
+      </button>
+      <button class="btn" id="tamb" data-key="87">
+        <div>Tamb</div>
+        (W)
+      </button>
+    </div>
+
+    <audio data-key="32" src="sounds/kick.wav"></audio>
+    <audio data-key="83" src="sounds/snare.wav"></audio>
+    <audio data-key="65" src="sounds/closed-hihat.wav"></audio>
+    <audio data-key="90" src="sounds/open-hihat.wav"></audio>
+    <audio data-key="88" src="sounds/ride.wav"></audio>
+    <audio data-key="67" src="sounds/crash.wav"></audio>
+    <audio data-key="68" src="sounds/tim.wav"></audio>
+    <audio data-key="70" src="sounds/tom.wav"></audio>
+    <audio data-key="86" src="sounds/sidebass.wav"></audio>
+    <audio data-key="81" src="sounds/cowbell.wav"></audio>
+    <audio data-key="87" src="sounds/tambhit.wav"></audio>
+  </body>
+
+  <script src="index.js"></script>
+</html>
